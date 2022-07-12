@@ -1,0 +1,4 @@
+.demo{
+    clip-path: polygon(50% 0, 100% 1%, 100% 100%, 0% 100%);
+    color: aqua;
+}

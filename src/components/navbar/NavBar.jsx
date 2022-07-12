@@ -2,7 +2,7 @@ import React from 'react'
 import {AiOutlineShoppingCart} from "react-icons/ai"
 const NavBar = () => {
   return (
-    <div className=' w-full  fixed '>
+    <div className=' w-full  fixed  top-o left-0'>
        <div className='w-full  h-full container mx-auto flex flex-row flex-wrap justify-between items-center'>
          <div className='flex flex-col flex-wrap w-[110px] justify-center items-center '>
            <img src={require("../../assets/images/logo.png")} alt='logo'/>
