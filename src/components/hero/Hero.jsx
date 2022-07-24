@@ -5,7 +5,7 @@ import {GiCutDiamond} from "react-icons/gi"
 import {TbGps} from "react-icons/tb"
 import {FaPrayingHands} from "react-icons/fa"
 import {TbHeadphones} from "react-icons/tb"
-import {MdLocalCarWash} from "react-icons/md"
+//import {MdLocalCarWash} from "react-icons/md"
 import "./Hero.css"
 const Hero = () => {
     const settings = {
@@ -70,7 +70,7 @@ const Hero = () => {
                       </div>
                       <div className='flex flex-row justify-center items-center mt-4  '>
                         <div className=' text-3xl p-4 bg-slate-800'>
-                          <MdLocalCarWash/>
+                          {/* <MdLocalCarWash/> */}
                         </div>
                         <h5 className=' text-xl ml-2  w-[250px] text-gray-400'>large fleet with various collection of vehicles</h5>
                       </div>

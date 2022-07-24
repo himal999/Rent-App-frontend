@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {Link} from 'react-router-dom';
 import {AiOutlineShoppingCart} from "react-icons/ai"
 
-const NavBar = () => {
+const NavBar = (data) => {
   const [scroll,setScroll] = useState(false)
   window.onscroll = ()=>{
     setScroll(window.pageYOffset>0?true:false);
@@ -18,7 +18,7 @@ const NavBar = () => {
             <div className='flex flex-col flex-wrap justify-center text-xl items-center mr-20'>
                 <ul className='flex flex-row'>
                   <li className='mx-8'><Link to="/">Home</Link></li>
-                  <li className='mx-8'><Link to="/expo">Explore</Link></li>
+                  <li className='mx-8'><Link to={{pathname:"/expo",state:data}}>Explore</Link></li>
                 </ul>
             </div>
             <div className='flex flex-row  justify-between items-center relative'>
